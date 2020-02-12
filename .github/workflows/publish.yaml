@@ -1,0 +1,26 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        name: Set up Python
+      - run: |
+          python --version
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        name: Install requirements
+      - run: python run.py data/* ./web
+        name: Build html pages
+      - uses: peaceiris/actions-gh-pages@v3
+        name: Deploy to GitHub Pages
+        with:
+          personal_token: ${{ secrets.GH_PAGES_TOKEN }}
+          publish_dir: ./web
