@@ -7,25 +7,48 @@
     .mdl-data-table {
         white-space: unset;
     }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
 </style>
+
+<head>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
 
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
     <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Countries</span>
         <nav class="mdl-navigation">
             {% for country in countries %}
-                <a class="mdl-navigation__link" href="{{ country['outfile'] }}">{{ country['name'] }}</a>
+            <a class="mdl-navigation__link" href="{{ country['outfile'] }}">{{ country['name'] }}</a>
             {% endfor %}
         </nav>
     </div>
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
             <span class="mdl-layout-title">{{ title }}</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="links.html">Links</a>
+                <a class="mdl-navigation__link" href="contribute.html">Contribute</a>
+                <a class="mdl-navigation__link" href="categories.html">Data categories</a>
+            </nav>
         </div>
     </header>
     <main class="mdl-layout__content">
         <div class="mdl-grid">
-            {{ table }}
+            <div class="mdl-cell mdl-cell--12-col">
+                {{ content }}
+            </div>
         </div>
     </main>
 </div>
