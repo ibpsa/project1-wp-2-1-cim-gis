@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<style>
+    .mdl-data-table {
+        white-space: unset;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <meta charset="UTF-8">
+    <title>Data categories</title>
+</head>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Countries</span>
+        <nav class="mdl-navigation">
+            
+            <a class="mdl-navigation__link" href="germany.html">Germany</a>
+            
+            <a class="mdl-navigation__link" href="iceland.html">Iceland</a>
+            
+            <a class="mdl-navigation__link" href="russia.html">Russia</a>
+            
+        </nav>
+    </div>
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">Data categories</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="links.html">Links</a>
+                <a class="mdl-navigation__link" href="contribute.html">Contribute</a>
+                <a class="mdl-navigation__link" href="categories.html">Data categories</a>
+            </nav>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+                <h1>Data categories</h1>
+
+<ul>
+<li>Primary = aaaaaa.a..a.a.a.a.a.a.a.a.a.a.a.a.a.a.</li>
+<li>Secundary = aaaaaa.a..a.a.a.a.a.a.a.a.a.a.a.a.a.a.</li>
+<li>Tertiary = aaaaaa.a..a.a.a.a.a.a.a.a.a.a.a.a.a.a.</li>
+</ul>
+<table border="1" class="dataframe mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Category</th>
+      <th>Description</th>
+      <th>Use</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Building footprints</td>
+      <td>2D polygons of the building footprint</td>
+      <td>Geometric calculations and estimations involving individual and gross floor area</td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Building height</td>
+      <td>Height of the building. Often comprised of two measurements - eave height and ridge height</td>
+      <td>Used to construct 3D volumes and surfaces from 2D data</td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3D building model</td>
+      <td>3D volumetric model of the building comprised of surfaces. Varying levels of detail</td>
+      <td>Provides geometric information about the outer shape of the building</td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Digital elevation model</td>
+      <td>Evenly spaced elevation values referenced to a projection or coordinate system</td>
+      <td>Determines the horizon line and location of shading objects for radiation calculations</td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Built form</td>
+      <td>Descriptive information about the relationship with other buildings</td>
+      <td>Determines the boundary conditions for simulation by identifying shared and exposed walls</td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Thermal envelope (wall, roof, floor, glazing types)</td>
+      <td>Detailed information on the construction and materials used in the elements of the building envelope</td>
+      <td>The thermophysical properties of the building elements are used in the simulation to calculate heat flows</td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Building age</td>
+      <td>Age of the building or time since the last retrofit</td>
+      <td>Infer typical building materials based on regulations at the time of construction/refurbishment</td>
+      <td>Secondary</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Building use</td>
+      <td>Usage category of a building</td>
+      <td>Used to determine internal schedules, temperature and humidity set points required for simulation</td>
+      <td>Secondary</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Occupant Composition</td>
+      <td>Detailed information about the number, type, age-group of the inhabitants of the building</td>
+      <td>Used to determine load schedules specific to an occupant type</td>
+      <td>Secondary</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Tenure</td>
+      <td>Provides information on whether the house is owner occupied, rented or is a social housing</td>
+      <td>Used to infer information about construction, refurbishment status or sceduling</td>
+      <td>Secondary</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Building Energy System</td>
+      <td>Existence and parameters of energy systems (Renewables, HVAC, Lighting and DHW) in the building.</td>
+      <td>Used in calculations to determine the effciency of the energy system and resulting demand profiles</td>
+      <td>Primary/Secondary</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Address Data</td>
+      <td>The street address of a building</td>
+      <td>Can be used for aggregation, clustering and linking. Address data could also be used to infer information about the age or use of a building.</td>
+      <td>Secondary</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Building Typology</td>
+      <td>Parameterised buildings models representing a specific category</td>
+      <td>Used to populate the parameters of missing or questionable data records</td>
+      <td>Tertiary</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Stock Development</td>
+      <td>Rates for a new building construction, building demolition and/or building refurbishment.</td>
+      <td>The stock development data acts as independet parameter that 'drives' a possible stock development forecast.</td>
+      <td>Tertiary</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Energy Generation and Distribution</td>
+      <td>The availability and description of district heating or external energy resources (e.g. CHP) as well as grid accessibility.</td>
+      <td>Used to evaluate the reliance and influence of the building on external energy systems</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Weather Data</td>
+      <td>Environmental variables experienced by the building over the simulated period</td>
+      <td>Directly used in the simulation to determine boundary conditions and heat flows</td>
+      <td>Primary</td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+        </div>
+    </main>
+</div>
+</html>
