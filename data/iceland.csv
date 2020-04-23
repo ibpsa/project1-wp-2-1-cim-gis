@@ -1,4 +1,4 @@
-Category,Description,Use,Type,Source ,"Comment (Resolution, Quality,..)",TEST
-Building footprints,2D polygons of the building footprint,Geometric calculations and estimations involving individual and gross floor area,Primary,www.xyz.at,"1m resolution, xyz, quality", test line one
-Building height,Height of the building. Often comprised of two measurements - eave height and ridge height,Used to construct 3D volumes and surfaces from 2D data,Primary ,www.xyz.at,"1m resolution, xyz, quality", test line two
-3D building model,3D volumetric model of the building comprised of surfaces. Varying levels of detail,Provides geometric information about the outer shape of the building,Primary,www.xyz.at,"1m resolution, xyz, quality", test line three
+Category,Description,Use,Type,Source,"Web-Source",Availability,Coverage (GEO),Resolution,Last updated,Update Turnus,Includes Non-Residential,"Comment (Resolution, Quality,..)"
+Building footprints,2D polygons of the building footprint,Geometric calculations and estimations involving individual and gross floor area,Primary,OSM,"www.xyz.at",open,Germany,Buildings,2018,Regularly,Yes,"1m resolution, xyz, quality"
+Building height,Height of the building. Often comprised of two measurements - eave height and ridge height,Used to construct 3D volumes and surfaces from 2D data,"Primary ",Freistaat Thüringen,"www.xyz.at",commercial,Bavaria,LoD2,2019,Annually,No,Census Data
+3D building model,3D volumetric model of the building comprised of surfaces. Varying levels of detail,Provides geometric information about the outer shape of the building,Primary,Bundesamt für XYZ,"www.xyz.at",privat,Berlin,1:10000,2020,Unknown,N/A,Airborne Laserscanning (ALS) data
