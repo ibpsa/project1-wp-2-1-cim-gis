@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     for country in countries:
         df = pd.read_csv(country['infile'])
-        df = df.drop(columns=['Description', 'Use', 'Type'])
+        df = df.drop(columns=['Description', 'Use', 'Type', 'Last updated', 'Update Turnus'])
 
         with open(os.path.join(outpath, country['outfile']), 'w') as file:
             file.write(template.render(content=df_to_html_table(df), title=country['name'], countries=countries))
