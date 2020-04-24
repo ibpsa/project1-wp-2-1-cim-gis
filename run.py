@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     md_files = [
         ('Home', 'content/Home.md', 'index.html'),
-        ('Contribute', 'content/Contribute.md', 'contribute.html'),
+        ('Contribute', 'content/Contribute.md', 'contribute.php'),
         ('Links', 'content/Links.md', 'links.html')
     ]
 
