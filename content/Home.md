@@ -1,8 +1,6 @@
 # IBPSA Project 1
 ## City District Information Modeling
 
-> Picture
-
 This work package addresses urban scale energy performance simulation of 
 domestic and non-domestic buildings. Highlighting the exchange requirements 
 and country-specific data mapping approaches, the work package also deals with 
@@ -27,7 +25,4 @@ using the CitySim+ urban enery simulation engine. Open source translators and wo
  for district energy simulations can be recognized as some of the outputs for this work package.
 
 
-How to cite this page: xxx.xxxx.xxxxx
-
-
-Disclaimer: xxx xxx xxxx
+How to cite this page: BauSIM-Paper
