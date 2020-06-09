@@ -1,0 +1,12 @@
+Category;Description;Use;Type;Source;Web-Source;Availability;Coverage (GEO);Resolution;Last updated;Update Turnus;Includes Non-Residential;Comment (Resolution, Quality,..)
+Building footprints;;;;OSM;www.openstreetmap.org;open;Austria;Buildings;;;yes;
+Building footprints;;;;Bundesamt für Eich und Vermessungswesen;www.bev.gv.at;Governmentq;Austria;;;;yes;
+Building footprints;;;;Geodatenportal der Länder;www.geoland.at;open;Austria;Buildings;;;yes;Building polygon based on Orthophotos
+Building height;;;;AGWR;www.statistik.at;Government;Austria;Buildings;;;yes;
+3D building model;;;;Open Data Österreich;www.data.gv.at;open;Vienna;LOD2;;;yes;
+Digital elevation model;;;;Open Data Österreich;www.data.gv.at;open;Austria;5-10m;;;yes;
+Building age;;;;AGWR;www.statistik.at;Government;Austria;Buildings;;;yes;
+Building use;;;;AGWR;www.statistik.at;Government;Austria;Buildings;;;yes;
+Building Energy System;;;;ZEUS;https://www.energieausweise.net;Government;Austria;;;;yes;
+Address Data;;;;AGWR;www.statistik.at;Government;Austria;;;;yes;
+Weather Data;;;;Zentralanstalt für Meteorologie und Geodynamik;www.zamg.ac.at;open/commercial ;Austria;;;;;
