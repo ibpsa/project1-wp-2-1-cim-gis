@@ -1,4 +1,4 @@
-Category,Description,Use,Type,Source,Web-Source,Availability,Coverage (GEO),Resolution,Last updated,Update Turnus,Includes Non-Residential,Comment (Resolution, Quality,..)
+Category,Description,Use,Type,Source,Web-Source,Availability,Coverage (GEO),Resolution,Last updated,Update Turnus,Includes Non-Residential,"Comment (Resolution, Quality,..)"
 Building footprints,,,,OSM,www.openstreetmap.org,open,Austria,Buildings,,,yes,
 Building footprints,,,,Bundesamt für Eich und Vermessungswesen,www.bev.gv.at,Government,Austria,,,,yes,
 Building footprints,,,,Geodatenportal der Länder,www.geoland.at,open,Austria,Buildings,,,yes,Building polygon based on Orthophotos
