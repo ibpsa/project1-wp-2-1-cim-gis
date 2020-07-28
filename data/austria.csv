@@ -1,6 +1,6 @@
 Category,Description,Use,Type,Source,"Web-Source",Availability,"Coverage (GEO)",Resolution,"Last updated","Update Turnus","Includes Non-Residential","Comment (Resolution, Quality,..)"
 Building footprints,,,,Open Street Map,https://wiki.openstreetmap.org/wiki/Buildings,open,Austria,Buildings,,,yes,
-Building footprints,,,,Bundesamt für Eich und Vermessungswesen,"https://www.bev.gv.at/portal/page?_pageid=713,3129142&_dad=portal&_schema=PORTAL",Government,Austria,,,,yes,
+Building footprints,,,,Bundesamt für Eich und Vermessungswesen,"https://www.bev.gv.at/portal/page?_pageid=713,3129142&_dad=portal&_schema=PORTAL",Government,Austria,Buildings,,,yes,
 Building footprints,,,,Geodatenportal der Länder,https://www.geoland.at,open,Austria,Buildings,,,yes,Building polygon based on Orthophotos
 Building height,,,,AGWR,https://www.statistik.at/web_de/services/adress_gwr_online/index.html,Government,Austria,Buildings,,,yes,
 3D building model,,,,Open Data Österreich,https://www.data.gv.at/katalog/dataset/86d88cae-ad97-4476-bae5-73488a12776d,open,Vienna,LOD2,,,yes,
