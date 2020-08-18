@@ -1,7 +1,7 @@
 # IBPSA Project 1
 ## City District Information Modeling
 
-<center>This work package addresses urban scale energy performance simulation of 
+This work package addresses urban scale energy performance simulation of 
 domestic and non-domestic buildings. Highlighting the exchange requirements 
 and country-specific data mapping approaches, the work package also deals with 
 archetypal definitions of buildings with respect to the generalization of 
@@ -22,7 +22,7 @@ Energy ADE information as an input for annual thermal simulation using Modelica.
 A further example is the development of a new workflow for the preparation of 
 large (thousands to tens of thousands of buildings) urban scenes for simulation
 using the CitySim+ urban enery simulation engine. Open source translators and workflows
- for district energy simulations can be recognized as some of the outputs for this work package.</center>
+ for district energy simulations can be recognized as some of the outputs for this work package.
 
 
 How to cite this page:
