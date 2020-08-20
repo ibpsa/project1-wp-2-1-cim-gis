@@ -16,3 +16,5 @@ jobs:
         name: Install requirements
       - run: python run.py data/* ./web
         name: Build html pages
+      - run: cp -r content/images web
+        name: Copy content/images/*
