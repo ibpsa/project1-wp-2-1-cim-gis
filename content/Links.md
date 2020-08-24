@@ -1,6 +1,7 @@
 ## IBPSA Project 1 
 ### BIM/GIS and Modelica Framework for building and community energy system design and operation
-![P1 Logo|512x397,20%](images/IBPSA_P1.png)
+<!---![P1 Logo|512x397,20%](images/IBPSA_P1.png)-->
+<img src="images/IBPSA_P1.png" width="30%">
 
 IBPSA Project 1 will create open-source software that builds the basis of next generation computing tools for the design and operation of building and district energy and control systems. It extends work conducted under the IEA EBC Annex 60. All work is open-source and built on three standards:<br />
 _IFC_ for data modeling at the building scale,<br/>
@@ -23,7 +24,8 @@ More information can be found under:
 
 
 ## CityGML Energy Application Domain Extension (ADE)
-![Energy ADE|512x397,20%](images/EnergyADE.png) 
+<!---![Energy ADE|512x397,20%](images/EnergyADE.png)-->
+<img src="images/EnergyADE.png" width="30%"> 
 Energy ADE is meant to offer a unique and standard-based data model to allow for both detailed single-building energy simulation (based on sophisticated models for building physics and occupants behaviour) and city-wide, bottom-up energy assessments, with particular focus on the buildings sector. 
 Typical areas of application cover – but are not limited to – analyses at building and urban scale, such as energy demand diagnostics, solar potential study, simulation of low-carbon energy strategies, etc
 
