@@ -4,8 +4,8 @@ You are invited to contribute to the development of the Universal Data Categoriz
 Furthermore, you are welcome to contribute in the following ways:
 
 ##### Edit and Preview
-+ For previewing the data that you would like to add to the template, please edit and Preview the [Contribute](https://github.com/ibpsa/project1-wp-2-1-cim-gis/edit/master/content/Contribute.md) page.
-Please remember this step is only to preview the data that you would like to contribute with. 
++ For previewing the data that you would like to add to the template, please edit and preview the [Add data](https://github.com/ibpsa/project1-wp-2-1-cim-gis/edit/master/content/Add_data.md) page.
+Please remember this step is only to **preview** the data that you would like to contribute with. **Do not commit the changes in the repository.**
 
 ##### Via pull request
 
